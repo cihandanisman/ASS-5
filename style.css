@@ -32,10 +32,12 @@ body {
   border-radius: 20px;
   display: flex;
   flex-wrap: wrap;
+  transition: .3s;
 }
 img {
   height: 70%;
   width: 80%;
+  border-radius: 10px;
 
 }
 a {
@@ -44,8 +46,18 @@ a {
 p {
   text-align: center;
   padding: 10px;
-}
 
+}
+.new:hover {
+  background-color: yellow;
+  box-shadow: 5px 5px 10px;
+  
+  
+}
+a:hover {
+  color: darkblue;
+  
+}
 @media screen and (max-width: 800px) {
   .main {
     grid-template-columns: 200px 200px;
